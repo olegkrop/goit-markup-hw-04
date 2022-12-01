@@ -587,7 +587,9 @@ body {
   gap: 30px;
   padding-top: 50px;
 }
-
+.works-pad {
+  padding: 20px 24px;
+}
 .works .item {
   /*margin-right: 20px;
   margin-bottom: 30px;*/
@@ -620,8 +622,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-color);
   background-color: var(--white-color);
-  padding: 20px 0 4px;
-  margin: 0 24px;
+  margin-bottom: 4px;
 }
 
 .works p {
@@ -630,6 +631,4 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   background-color: var(--white-color);
-  padding: 0 0 20px;
-  margin: 0 24px;
 }
