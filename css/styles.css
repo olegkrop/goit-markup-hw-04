@@ -185,7 +185,7 @@ body {
 
 .hero {
   text-align: center;
-  background-color: var(--hero-background);
+ /* background-color: var(--hero-background);*/
   max-height: 600px;
 }
 
