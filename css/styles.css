@@ -460,8 +460,10 @@ body {
   margin: 15px 0 0;
 }
 
-.contact-mar {
-  margin: 0 0 9px;
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
 }
 
 .contact:hover,
@@ -498,6 +500,7 @@ body {
 
 .site-footer .make-line {
   display: flex;
+  gap: 10px;
   padding: 0;
   margin-top: 0;
   list-style: none;
@@ -508,7 +511,6 @@ body {
 .site-footer .item {
   width: 44px;
   height: 44px;
-  margin-right: 10px;
 }
 
 .site-footer .social-link {
@@ -517,7 +519,7 @@ body {
   display: block;
   border-radius: 50%;
   color: var(--white-color);
-  background-color: var(--icon-background) ;
+  background-color: var(--icon-background);
 }
 
 .site-footer .social-link:hover,
