@@ -309,19 +309,20 @@ body {
   background-color: var(--team-background);
 }
 
+.team-pad {
+  padding: 30px 32px;
+}
+
 .team .flex {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .team .item {
-  margin-right: 30px;
-  padding-bottom: 30px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-}
-
-.team .item:last-child {
-  margin-right: 0;
 }
 
 .team li {
@@ -335,7 +336,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
-  padding: 30px 0 10px;
+  margin-bottom: 10px;
 }
 
 .team p {
@@ -343,12 +344,14 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
 
 .team-social-list {
   display: flex;
-  padding: 0 32px 0;
+  gap: 10px;
+  padding: 0;
   margin-top: 16px;
   list-style: none;
   justify-content: space-between;
@@ -375,7 +378,6 @@ body {
   background-color: var(--accent-color);
 }
 
-/* -------  background-color: #f5f4fa;  --------Clients---------------- */
 .team .icon {
   margin: 12px 0px 0px 12px;
   fill: currentColor;
