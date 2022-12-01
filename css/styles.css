@@ -460,8 +460,11 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  margin: 15px 0 0;
 }
-
+.contact-mar {
+    margin: 0 0 9px;
+}
 .contact:hover,
 .contact:focus {
   color: var(--accent-color);
