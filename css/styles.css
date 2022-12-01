@@ -11,6 +11,7 @@
   --team-background: #F5F4FA;
   --works-background: #EEEEEE;
   --dark-address: rgba(255, 255, 255, 0.6);
+
 }
 
 /* reset styles */
@@ -185,7 +186,7 @@ body {
 
 .hero {
   text-align: center;
- /* background-color: var(--hero-background);*/
+  /* background-color: var(--hero-background);*/
   max-height: 600px;
 }
 
@@ -368,7 +369,7 @@ body {
   display: block;
   border-radius: 50%;
   color: #afb1b8;
-  background-color: #f5f4fa;
+  background-color: red;
 }
 
 .round:hover,
@@ -377,6 +378,7 @@ body {
   background-color: var(--accent-color);
 }
 
+/* -------  background-color: #f5f4fa;  --------Clients---------------- */
 .team .icon {
   margin: 12px 0px 0px 12px;
   fill: currentColor;
@@ -475,6 +477,7 @@ body {
 
 .site-footer .make-two-columns {
   display: flex;
+  align-items: baseline;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -609,7 +612,7 @@ body {
   letter-spacing: 0.06em;
   color: var(--title-color);
   background-color: var(--white-color);
-  padding: 20px 0 14px;
+  padding: 20px 0 4px;
   margin: 0 24px;
 }
 
@@ -619,6 +622,6 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
   background-color: var(--white-color);
-  margin: 0 0 20px;
+  padding: 0 0 20px;
   margin: 0 24px;
 }
