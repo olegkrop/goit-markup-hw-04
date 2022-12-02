@@ -580,7 +580,8 @@ body {
 }
 
 .works-pad {
-  padding: 20px 24px;
+  padding: 0 0;
+  /* will use iy 5th homework */
 }
 
 .works .item {
