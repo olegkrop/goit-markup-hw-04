@@ -1,9 +1,6 @@
 :root {
   --text-color: #757575;
   --accent-color: #2196f3;
-  /* Бо ментор проти 
-  --backgroung-color: #F5F5F5;
-  */
   --title-color: #212121;
   --white-color: #fff;
   --black-color: #000;
@@ -35,6 +32,7 @@ body {
   color: var(--text-color);
   font-family: Roboto, sans-serif;
   font-style: normal;
+  background-color: var(--white-color);
 }
 
 .list {
@@ -516,8 +514,26 @@ body {
   padding-left: 0;
 }
 
+.catalogue-list {
+  display: block;
+  width: 370px;
+}
+
+.catalogue-link {
+  display: block;
+  text-decoration: none;
+}
+
+.catalogue-link:hover,
+.catalogue-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .works-pad {
   padding: 20px 24px;
+  border: 1px solid var(--works-background);
+  border-top: none;
 }
 
 .works .item {
